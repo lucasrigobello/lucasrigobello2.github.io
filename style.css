@@ -1,0 +1,77 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #EEEEE;
+	font-family: 'Roboto', sans-serif;
+}
+
+header{
+	background-color:MediumSeaGreen; 
+	text-align:center;
+}
+
+span{
+	display:inline-block;
+	padding:10px;
+}
+
+img{
+	display:inline-block; 
+	vertical-align:middle;
+	padding:10px;
+}
+
+.foto{
+	display:inline-block; 
+	vertical-align:middle;
+	padding:0px;
+	box-shadow: 10px 10px 41px 0px rgba(0,0,0,0.75);
+}
+
+.column_header{
+	width: 30%;
+	padding: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+main{
+	padding:20px;
+}
+
+.card{
+	background-color: WhiteSmoke;
+	padding: 20px;
+	width:60%;
+	margin: 0 auto;	
+	border-radius:20px;
+	display:block;
+}
+
+.card1{
+	background-color: #D0FFFF;
+	padding: 20px;
+	width:60%;
+	margin: 10px auto;
+	border-radius:20px;
+	display:block;
+}
+
+.card2{
+	background-color: WhiteSmoke;
+	padding: 20px;
+	width:60%;
+	margin: 10px auto;
+	border-radius:20px;
+	display:block;
+}
+
+
+.h_topicos{
+	background-color:DarkGreen; 
+	color:white;
+	display:inline-block;
+	padding: 5px 20px;
+	border-radius:10px;
+
+}
