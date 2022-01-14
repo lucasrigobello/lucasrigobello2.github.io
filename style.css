@@ -113,9 +113,9 @@ h2{
 
 }
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 900px) {
 	.column_header{
-	padding: 10px;
+	padding: 0px;
 	background-color: blue;
 	/*display: inline-block;*/
 	display: flex;
@@ -126,7 +126,7 @@ h2{
 	}
 
 	.row_header{
-	padding: 100px;
+	padding: 10px;
 	/*display: inline-block;*/
 	display: flex;
 	flex-direction: column;
