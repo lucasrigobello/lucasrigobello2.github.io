@@ -51,6 +51,7 @@
 @media (min-width: 481px) and (max-width: 768px) {
 	.navbar{
 	/*border: 1px solid red;*/
-	text-align: right;
+	text-align: center;
+	padding-right: 0px;
 	}
 }

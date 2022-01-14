@@ -113,10 +113,9 @@ h2{
 
 }
 
-@media (min-width: 481px) and (max-width: 900px) {
+@media (min-width: 481px) and (max-width: 768px) {
 	.column_header{
 	padding: 0px;
-	background-color: blue;
 	/*display: inline-block;*/
 	display: flex;
 	flex-direction: column;
@@ -144,7 +143,7 @@ h2{
 	}
 
 	.card2{
-	background-color: blue;
+	background-color: #D0FFFF;;
 	padding: 20px;
 	width:90%;
 	margin: 10px auto;
