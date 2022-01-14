@@ -48,7 +48,7 @@
 	/*background-color: #efefff;*/
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 	.navbar{
 	/*border: 1px solid red;*/
 	text-align: center;
