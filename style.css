@@ -121,7 +121,6 @@ h2{
 @media (max-width: 480px) {
 	.column_header{
 	padding: 0px;
-	background-color: blue;
 	/*display: inline-block;*/
 	display: flex;
 	flex-direction: column;
