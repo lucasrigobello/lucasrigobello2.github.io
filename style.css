@@ -10,6 +10,14 @@ header{
 	text-align:center;
 }
 
+header h1{
+	text-align:center;
+}
+
+header h4{
+	text-align:center;
+}
+
 span{
 	display:inline-block;
 	padding:10px;
@@ -26,30 +34,103 @@ img{
 	vertical-align:middle;
 	padding:0px;
 	box-shadow: 10px 10px 41px 0px rgba(0,0,0,0.75);
+	transition: transform 2s, box-shadow 2s;
+	transform: translateY(0px);
+}
+
+.foto:hover{
+	transform: translateY(10px);
+	box-shadow: 20px -10px 30px 0px rgba(0,0,0,0.99);
 }
 
 .column_header{
-	width: 30%;
 	padding: 10px;
-	display: inline-block;
-	vertical-align: top;
+	/*display: inline-block;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.row_header{
+	padding: 10px;
+	/*display: inline-block;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+@media (max-width: 768px) {
+	.column_header{
+	padding: 10px;
+	/*display: inline-block;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	}
+
+	.row_header{
+	padding: 100px;
+	/*display: inline-block;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	}
+	
+	.card1{
+	background-color: WhiteSmoke;
+	padding: 20px;
+	width:90%;
+	margin: 10px auto;
+	border-radius:20px;
+	display:block;
+	}
+
+	.card2{
+	background-color: #D0FFFF;
+	padding: 20px;
+	width:90%;
+	margin: 10px auto;
+	border-radius:20px;
+	display:block;
+	}
 }
 
 main{
 	padding:20px;
 }
 
-.card{
-	background-color: WhiteSmoke;
-	padding: 20px;
-	width:60%;
-	margin: 0 auto;	
-	border-radius:20px;
-	display:block;
+h2{
+	text-align:center;
 }
 
+.section_title{
+	background-color:DarkGreen;
+	color:white;
+	text-align:left;
+}
+
+.row_container{
+	padding: 10px;
+	/*display: inline-block;*/
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+
 .card1{
-	background-color: #D0FFFF;
+	background-color: WhiteSmoke;
 	padding: 20px;
 	width:60%;
 	margin: 10px auto;
@@ -58,14 +139,13 @@ main{
 }
 
 .card2{
-	background-color: WhiteSmoke;
+	background-color: #D0FFFF;
 	padding: 20px;
 	width:60%;
 	margin: 10px auto;
 	border-radius:20px;
 	display:block;
 }
-
 
 .h_topicos{
 	background-color:DarkGreen; 
