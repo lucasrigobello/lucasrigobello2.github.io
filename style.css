@@ -118,7 +118,7 @@ h2{
 	color:white;
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (max-width: 768px) {
 	.column_header{
 	padding: 0px;
 	background-color: blue;
