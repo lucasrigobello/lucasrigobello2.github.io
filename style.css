@@ -113,9 +113,15 @@ h2{
 
 }
 
-@media (min-width: 481px) and (max-width: 900px) {
+.title_flag{
+	background-color:DarkSlateGray; 
+	color:white;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
 	.column_header{
 	padding: 0px;
+	background-color: blue;
 	/*display: inline-block;*/
 	display: flex;
 	flex-direction: column;
